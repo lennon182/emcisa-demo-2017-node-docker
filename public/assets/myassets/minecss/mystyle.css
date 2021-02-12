@@ -1,0 +1,33 @@
+.tabs-left{
+	padding: 1px !important;
+}
+
+.tabs-left > li > a{
+	color: cadetblue !important;
+}
+
+.tabs-left > li.active > a{
+	color: #212121 !important;
+	background: #fafafa !important;
+	border-left: 10px solid #203b8a !important;
+
+}
+
+.tabs-left > li.active {
+
+	margin-left: 0px;
+}
+
+.nav-tabs .nav-link{
+
+display: block;
+padding: .5em 1em;
+border: none !important;
+border: 1px solid #212121 !important;
+border-radius: .25rem .25rem 0 0;
+
+}
+
+.nav-tabs .nav-item{
+	float:none !important;
+}

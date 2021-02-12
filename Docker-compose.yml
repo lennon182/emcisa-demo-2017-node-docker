@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  emcisa-server:
+    container_name: emcisa-demo-node-server
+    restart: always
+    build: .
+    ports:
+      - "9090:8500"
